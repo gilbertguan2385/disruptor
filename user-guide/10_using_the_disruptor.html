@@ -519,7 +519,7 @@ pre.pygments .tok-il { color: #666666 } /* Literal.Number.Integer.Long */
 <div id="header">
 <h1>Using the Disruptor</h1>
 <div class="details">
-<span id="revnumber">version 4.0.0.RC2-SNAPSHOT</span>
+<span id="revnumber">version 4.0.0-SNAPSHOT</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -614,7 +614,7 @@ There is no specific code representation of the Event as it defined entirely by 
 </li>
 <li>
 <p><strong>Event Processor</strong>: The main event loop for handling events from the Disruptor and has ownership of consumer&#8217;s Sequence.
-There is a single representation called BatchEventProcessor that contains an efficient implementation of the event loop and will call back onto a used supplied implementation of the EventHandler interface.</p>
+There is a single representation called BatchEventProcessor that contains an efficient implementation of the event loop and will call back onto a user supplied implementation of the EventHandler interface.</p>
 </li>
 <li>
 <p><strong>Event Handler</strong>: An interface that is implemented by the user and represents a consumer for the Disruptor.</p>
@@ -1501,8 +1501,8 @@ This will only happen once the ring buffer has wrapped around to the beginning.<
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 4.0.0.RC2-SNAPSHOT<br>
-Last updated 2023-09-01 13:26:14 UTC
+Version 4.0.0-SNAPSHOT<br>
+Last updated 2023-11-26 01:52:36 UTC
 </div>
 </div>
 </body>
